@@ -1,0 +1,30 @@
+<html>
+<head>
+	
+    <title>Surjangshi knows Addition</title>
+
+	<script>
+		function n()
+		{
+			let a,b,c;
+			a = Number(document.getElementById("num").value);//input
+            b = Number(document.getElementById("num2").value);//input
+            c=a+b
+            document.getElementById("dis").textContent=("Sum="+c);//output
+        }
+	</script>
+</head>
+<body>
+	<center>
+    <h1>Calculate in seconds</h1>
+	<p> Enter Your first number</p>
+	<input type = "number" id="num">
+    <p> Enter Your second no.</p>
+	<input type = "number" id="num2">
+	<br>
+	<br>
+	<button onclick="n()">CALCULATE</button>
+	<p id="dis"></p>
+	</center>
+</body>
+</html>
